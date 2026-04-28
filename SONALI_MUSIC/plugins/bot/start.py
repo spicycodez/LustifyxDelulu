@@ -26,18 +26,17 @@ from config import BANNED_USERS
 from strings import get_string
  
 LUSTIFY = [
-    "https://files.catbox.moe/7kbojt.jpg",
-    "https://files.catbox.moe/y8xei6.jpg",
-    "https://files.catbox.moe/taeu8f.jpg",
-    "https://files.catbox.moe/p3rdn3.jpg",
-    "https://files.catbox.moe/30qlzm.jpg",
-    "https://files.catbox.moe/6ed6rh.jpg",
-    "https://files.catbox.moe/i5o42l.jpg",
-    "https://files.catbox.moe/2b9dlp.jpg",
-    "https://files.catbox.moe/5hb0yi.jpg",
-    "https://files.catbox.moe/9i4zek.jpg",
-    "https://files.catbox.moe/p5k77y.jpg",
-    "https://files.catbox.moe/zlds64.jpg"
+    "https://files.catbox.moe/h9htlx.jpg",
+    "https://files.catbox.moe/20iex5.jpg",
+    "https://files.catbox.moe/7suf5s.jpg",
+    "https://files.catbox.moe/lbv4qf.jpg",
+    "https://files.catbox.moe/fjbhwb.jpg",
+    "https://files.catbox.moe/nnd7xx.jpg",
+    "https://files.catbox.moe/0wb9m2.jpg",
+    "https://files.catbox.moe/vbhfuf.jpg",
+    "https://files.catbox.moe/n4i17h.jpg",
+    "https://files.catbox.moe/2wyrrr.jpg",
+    "https://files.catbox.moe/p5k77y.jpg"
 ]
  
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
