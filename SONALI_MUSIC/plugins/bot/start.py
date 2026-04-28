@@ -25,15 +25,19 @@ from SONALI_MUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
  
-NEXIO = [
-          "https://litter.catbox.moe/vtsad2y91ytmincf.jpg",
-          "https://litter.catbox.moe/4w9ecqcg6gzijzwt.jpg",
-          "https://litter.catbox.moe/ql33xyx1bawu1c2v.jpg",
-          "https://litter.catbox.moe/wvszrn7kqj0lrme6.jpg",
-          "https://litter.catbox.moe/oc71pbepf8cxkk4r.jpg",
-          "https://litter.catbox.moe/00ty0hx8cbrs2299.jpg",
-          "https://litter.catbox.moe/pdn1i4ze2hl1u6gf.jpg",
-          "https://litter.catbox.moe/qcgtbz6keobcc8iz.jpg",
+LUSTIFY = [
+    "https://files.catbox.moe/7kbojt.jpg",
+    "https://files.catbox.moe/y8xei6.jpg",
+    "https://files.catbox.moe/taeu8f.jpg",
+    "https://files.catbox.moe/p3rdn3.jpg",
+    "https://files.catbox.moe/30qlzm.jpg",
+    "https://files.catbox.moe/6ed6rh.jpg",
+    "https://files.catbox.moe/i5o42l.jpg",
+    "https://files.catbox.moe/2b9dlp.jpg",
+    "https://files.catbox.moe/5hb0yi.jpg",
+    "https://files.catbox.moe/9i4zek.jpg",
+    "https://files.catbox.moe/p5k77y.jpg",
+    "https://files.catbox.moe/zlds64.jpg"
 ]
  
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -45,7 +49,7 @@ async def start_pm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             return await message.reply_photo(
-                random.choice(NEXIO),
+                random.choice(LUSTIFY),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
                 has_spoiler=True
@@ -116,7 +120,7 @@ async def start_pm(client, message: Message, _):
         await baby.delete()
         
         await message.reply_photo(
-            random.choice(NEXIO),
+            random.choice(LUSTIFY),
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
             has_spoiler=True,
@@ -133,7 +137,7 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
-        random.choice(NEXIO),
+        random.choice(LUSTIFY),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
         has_spoiler=True,
@@ -168,7 +172,7 @@ async def welcome(client, message: Message):
  
                 out = start_panel(_)
                 await message.reply_photo(
-                    random.choice(NEXIO),
+                    random.choice(LUSTIFY),
                     caption=_["start_3"].format(
                         message.from_user.mention,
                         app.mention,
