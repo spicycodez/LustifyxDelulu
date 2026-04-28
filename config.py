@@ -9,9 +9,9 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
-OWNER_USERNAME = getenv("OWNER_USERNAME","NoMoreLove")
-BOT_USERNAME = getenv("BOT_USERNAME" , "DeluluXmusicbot")
-BOT_NAME = getenv("BOT_NAME" , "𝑴𝒚𝒔𝒕𝒊𝒄𝒂𝒍 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕")
+OWNER_USERNAME = getenv("OWNER_USERNAME","SheOwnsMaxim")
+BOT_USERNAME = getenv("BOT_USERNAME" , "LustifyMusicBot")
+BOT_NAME = getenv("BOT_NAME" , "˹ʟᴜsᴛɪғʏ ♪ ᴍᴜsɪᴄ˼")
 ASSUSERNAME = getenv("ASSUSERNAME" , "DeluluXAssistant")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
@@ -19,13 +19,13 @@ LOGGER_ID = int(getenv("LOGGER_ID", 0))
 OWNER_ID = int(getenv("OWNER_ID", 7959152119))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/spicycodez/DeluluMusic",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/spicycodez/LustifyxDelulu",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 #API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song url
 #VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-YT_API_KEY = getenv("API_KEY", "xbit_issQbNpQKwoZaRVBQtEogF1kcbVorV4I") # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+YT_API_KEY = getenv("API_KEY", "") # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com')
 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "")
