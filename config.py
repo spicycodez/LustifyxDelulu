@@ -30,7 +30,7 @@ YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com')
 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SpicyxNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+gXCu09qmgwA0NjA9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+t25uIUjGL30wMmU9")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
